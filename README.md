@@ -39,7 +39,7 @@ $ npm run test:cov
 ```
 
 ## Repository Activity
-![Alt](https://repobeats.axiom.co/api/embed/1929095ae8b4fb2d5d5dbc561ad4e906db6dd2b7.svg "Repobeats analytics image")
+![Alt](https://repobeats.axiom.co/api/embed/73e2e3d0d30eb4ca5aef399533aaad2221d0d8f3.svg "Repobeats analytics image")
 
 ## License
 
