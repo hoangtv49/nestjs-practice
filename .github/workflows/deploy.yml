@@ -1,0 +1,12 @@
+name: Deploy
+
+on:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: self-hosted
+
+    steps:
+    - name: Deploy
+      run: echo "Deploying..." && cd /home/hoangtv/deploy/nestjs-practice && docker-compose up
