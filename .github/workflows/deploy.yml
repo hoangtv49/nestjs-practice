@@ -1,0 +1,14 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: self-hosted
+
+    steps:
+    - name: Deploy
+      run: echo "Deploying..." && cd ~/deploy/nestjs-practice && git checkout master && git pull && docker compose up --build -d
